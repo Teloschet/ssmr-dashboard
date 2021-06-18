@@ -15,7 +15,7 @@ class CreateTableCodigo extends Migration
     {
         Schema::create('codigos', function (Blueprint $table) {
             $table->id();
-            $table->string('codigo');
+            $table->string('codigo', 255);
             $table->timestamps();
         });
     }
