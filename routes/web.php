@@ -7,4 +7,5 @@ Route::redirect('/', '/login');
 
 Route::group(['prefix' => ''], function() {
     Route::get('login', 'App\Http\Controllers\LoginController@index');
+    Route::post('login', 'App\Http\Controllers\LoginController@verification');
 });
