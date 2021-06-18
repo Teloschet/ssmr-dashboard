@@ -1,7 +1,7 @@
 ## SSMR DASHBOARD
 - This a dashboard controller for a new organization of SSMR Brazilian Army;
 
-## How to use
+### How to use
 - For download this repository you need to clone this!
 
 ```bash
