@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(36, 36, 36)), to(rgb(37, 37, 37))) fixed;;
+    
+}
+
+.layout {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.layout > form {
+    display:flex;
+    margin-top:10px;
+}
+
+.layout > form > input {
+    padding:15px;
+    flex: 1 1 50px;
+    flex-wrap: wrap;
+    border: none;
+}
+
+.layout > form > input[type=text] {
+    border-top-left-radius: 5px;
+}
+
+.layout > form > input[type=submit] {
+    border-bottom-right-radius: 5px;
+    color:#fff;
+    cursor: pointer;
+    background:#1A942D;
+    transition: background 0.3s;
+}
+
+.layout > form > input[type=submit]:hover {
+    background:#179F2C;
+}
+
+.layout > h1 {
+    color:#fff;
+    font-size:24px;
+    text-transform: uppercase;
+}
